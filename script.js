@@ -3,7 +3,6 @@ $(document).ready(function () {
         $(this).parent(".accordion-item").find(".panel").slideToggle();
         $(this).parent(".accordion-item").prevAll(".accordion-item").find(".panel").slideUp();
         $(this).parent(".accordion-item").nextAll(".accordion-item").find(".panel").slideUp();
-        $(this).parent(".accordion-item").find('.arrow').slideToggle();
     });
 
     var sticky = $('.sticky');

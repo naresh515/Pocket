@@ -784,12 +784,21 @@ body {
     font-weight: 700;
 }
 
+.ico {
+    font-size: 12px;
+}
+
 .arrow {
     position: absolute;
     right: 0;
     padding: 6px 10px;
     background: #f567161a;
     color: #f5a96e;
+}
+
+.arrow:hover {
+    color: white;
+    background: #f5a96e;
 }
 
 .panel {
@@ -1475,5 +1484,29 @@ span {
 
     .sec_nine_text h3 {
         font-size: 20px;
+    }
+
+    .icon12 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .emerganncy {
+        display: flex;
+        justify-content: center;
+    }
+
+    .em-service-icon {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img_inside {
+        padding-top: 20px;
+    }
+
+    .accordion-item button {
+        display: flex;
+        text-align: left;
     }
 }
