@@ -2,7 +2,7 @@ body {
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    font-family: Jost, sans-serif;
+    font-family: 'Jost', sans-serif;
 }
 
 .container {
@@ -24,6 +24,7 @@ body {
     display: -webkit-inline-box;
     gap: 35px;
     color: white;
+    cursor: pointer;
 }
 
 .feature img {
@@ -38,6 +39,10 @@ body {
     display: flex;
     gap: 18px;
     text-decoration: none;
+}
+
+.icon:hover {
+    color: black;
 }
 
 .icon {
@@ -58,6 +63,7 @@ body {
     height: 100px;
     background-color: white;
     width: 100%;
+    margin: 0 auto;
 }
 
 .fixed {
@@ -65,6 +71,14 @@ body {
     width: 100%;
     z-index: 1;
     top: 0;
+}
+
+.nav_hover {
+    cursor: text;
+}
+
+.ico1 {
+    cursor: default;
 }
 
 .logo {
@@ -211,7 +225,6 @@ body {
 
 .sec_text p {
     margin: 10px auto 5px 0;
-    font-weight: lighter;
     font-size: 15px;
     letter-spacing: 0.04rem;
     color: gray;
@@ -968,14 +981,12 @@ span {
 .footer_one h2 {
     font-style: normal;
     line-height: 1.2;
-    font-weight: 600;
     font-size: 25px;
 }
 
 .footer_one p {
     font-style: normal;
     line-height: 1.2;
-    font-weight: 600;
     font-size: 17px;
 }
 
@@ -1003,6 +1014,10 @@ span {
 .button1 {
     padding: 20px 30px;
     margin-left: -6px;
+}
+
+.button1:hover {
+    color: #f5a96e;
 }
 
 .end {
