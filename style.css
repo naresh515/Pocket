@@ -147,6 +147,7 @@ body {
     justify-content: space-around;
     background-color: black;
     padding: 60px 0px;
+    margin-top: -6px;
 }
 
 .aside_text {
