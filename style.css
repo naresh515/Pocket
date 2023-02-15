@@ -1028,16 +1028,18 @@ span {
 
 .scroll-top {
     position: fixed;
-    bottom: 10px;
-    right: 10px;
+    bottom: 30px;
+    right: 30px;
     z-index: 99;
-    background: red;
+    background: #f5a96e;
     color: #fff;
-    border-radius: 30px;
-    padding: 15px;
-    font-weight: bold;
-    line-height: normal;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 5px;
     border: none;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 .sec_six_two img {
@@ -1077,6 +1079,16 @@ span {
         padding: 0;
         box-sizing: border-box;
         font-family: Jost, sans-serif;
+    }
+
+    .scroll-top {
+        bottom: 92px;
+        cursor: pointer;
+    }
+
+    .blog_img_one_inner p {
+        display: flex;
+        justify-content: center;
     }
 
     .nav_one {
@@ -1126,12 +1138,14 @@ span {
 
     .d-flex {
         overflow: hidden;
-        margin: 0px 20px;
+        margin: 0 auto;
     }
 
     .sec_text {
         padding-top: 20px;
         text-align: center;
+        margin: 0 auto;
+        width: 90%;
     }
 
     .slider_btn {
@@ -1246,6 +1260,9 @@ span {
         width: 100%;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        position: relative;
+        left: -50px;
     }
 
     .sec_four_img {
@@ -1258,7 +1275,16 @@ span {
     }
 
     .img1 img {
-        height: 100px;
+        position: relative;
+        left: 50%;
+        right: 0;
+    }
+
+    .sec_icons_text {
+        position: relative;
+        left: 50%;
+        right: 0;
+        padding: 10px 0px;
     }
 
     .sec_five {
@@ -1324,7 +1350,7 @@ span {
 
     .sec_eight_img img {
         width: 90%;
-        margin: 0px 15px;
+        margin: 0px auto;
     }
 
     .sec_nine_img {
@@ -1351,6 +1377,7 @@ span {
 
     .sec_ten img {
         padding: 10px;
+        padding-top: 50px;
     }
 
     .sec_eleven {
@@ -1394,9 +1421,14 @@ span {
     }
 
     .footer_one {
-        width: 100%;
+        width: 90%;
         text-align: center;
-        padding: 0px;
+        padding: 0px 0px 20px;
+        margin: 0 auto;
+    }
+
+    .sec_ten {
+        height: 200px;
     }
 
     .aside_one h3 {
@@ -1507,6 +1539,8 @@ span {
 
     .accordion-item button {
         display: flex;
+        width: 90%;
+        margin: 0 auto;
         text-align: left;
     }
 }
